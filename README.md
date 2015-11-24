@@ -1,29 +1,39 @@
-# Joe's Own Editor
+# Joe's Own Editor 4.1
 
 ### How this repo came into being
 <pre>
 git init joe
 wget https://sourceforge.net/projects/joe-editor/files/latest/download?source=files -O joe.tgz
 tar xzf joe.tgz
-mv joe-4.*/* joe
-rmdir ./joe-4.*/*
+mv joe-4.1/* joe
+rmdir ./joe-4.1/*
 cd joe
 git add *
-git remote add origin https://github.com/***/joe.git
+git remote add origin https://github.com/pepa65/joe.git
 git push -u origin master
 </pre>
 
-[User manual](https://sourceforge.net/p/joe-editor/mercurial/ci/default/tree/docs/man.md) 
+[User manual](https://sourceforge.net/p/joe-editor/mercurial/ci/default/tree/docs/man.md)
+
 [Release Notes](https://sourceforge.net/p/joe-editor/mercurial/ci/default/tree/NEWS.md)
+
 [List of Commands](https://sourceforge.net/p/joe-editor/mercurial/ci/default/tree/docs/man.md#list)
+
 [List of Options](https://sourceforge.net/p/joe-editor/mercurial/ci/default/tree/docs/man.md#options)
+
 [JOE for Windows tips](https://sourceforge.net/p/joe-editor/mercurial/ci/windows/tree/docs/windows.md)
+
 [Hacking](https://sourceforge.net/p/joe-editor/mercurial/ci/default/tree/docs/hacking.md)
+
 [Project page](http://www.sourceforge.net/projects/joe-editor)
+
 [Download source](http://prdownloads.sourceforge.net/joe-editor/joe-4.0.tar.gz?download)
+
 [Build instructions](https://sourceforge.net/p/joe-editor/mercurial/ci/default/tree/INSTALL)
+
 [History](https://sourceforge.net/p/joe-editor/mercurial/ci/default/tree/docs/history.md)
 
+<p></p>
 
 <p>JOE is a full featured terminal-based screen editor which is distributed
 under the GNU General Public License (GPL).  JOE has been around since 1988
